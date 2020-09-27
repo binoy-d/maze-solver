@@ -1,7 +1,13 @@
 .maze-wrapper{
     background-color: teal;
+    display:grid;
 }
 
 .main-header{
     color:white;
+}
+
+
+.row{
+    margin-left:25%!important;
 }

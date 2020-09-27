@@ -1,10 +1,10 @@
 import React from 'react';
 import './Tile.css';
 
-function Tile({size}){
+function Tile(){
     return (
-        <div style = {{width:size, height:size}} className = "tile-wrapper">
-            
+        <div className = "tile-wrapper">
+           
         </div>
 
     );
