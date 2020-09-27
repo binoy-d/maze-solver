@@ -7,6 +7,8 @@ function MazeWrapper(){
     let dim = 10;
     var maze = [];
 
+
+
     for(let i = 0; i<dim; i++){
         var row = []
         for(let j = 0; j<dim; j++){
@@ -20,10 +22,14 @@ function MazeWrapper(){
             </Row>
         );
     }
+
+
+
+
     return (
         <div className = "maze-wrapper">
             <h1 className = "main-header">This is  a test</h1>
-            <Container className = "w-80">
+            <Container classname = "w-100">
             {maze.map((tile, index)=>
             tile
             )}
